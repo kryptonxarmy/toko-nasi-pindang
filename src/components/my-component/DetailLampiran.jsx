@@ -17,9 +17,9 @@ export function DetailLampiran() {
           <DialogTitle className="text-[#17a2b8] font-light">LAMPIRAN DOKUMEN KENDARAAN</DialogTitle>
         </DialogHeader>
         <div className="h-[25rem]">
-          <div className="w-full h-full border-2 border-black">
-            <div className="h-[15rem] w-fit">
-              <img src={"/stnk_palsu.jpeg"} alt="stnk" className="h-[25rem] object-cover" />
+          <div className="w-full h-full border-2 overflow-scroll border-black">
+            <div className="h-[15rem]  w-fit">
+              <img src={"/stnk_palsu.jpeg"} alt="stnk" className="h-[20rem] object-cover" />
             </div>
           </div>
         </div>
