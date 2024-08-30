@@ -12,7 +12,7 @@ export function DetailLampiran() {
           LIHAT LAMPIRAN KENDARAAN
         </Button>
       </DialogTrigger>
-      <DialogContent className="md:max-w-4xl max-w-sm md:mx-0 mx-auto h-[80vh]">
+      <DialogContent className="md:max-w-4xl max-w-sm md:mx-0 mx-auto min-h-[80vh]">
         <DialogHeader>
           <DialogTitle className="text-[#17a2b8] font-light">LAMPIRAN DOKUMEN KENDARAAN</DialogTitle>
         </DialogHeader>
