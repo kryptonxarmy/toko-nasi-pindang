@@ -30,11 +30,11 @@ export default function TableDataKendaraan() {
             {
               left: {
                 title: "NOMOR RANGKA",
-                desc: "MHCNKR55HFJ064488",
+                desc: "MHCNLR55HJJ081119",
               },
               right: {
                 title: "NOMOR MESIN",
-                desc: "M064488",
+                desc: "M081119",
               },
             },
             {
@@ -71,7 +71,7 @@ export default function TableDataKendaraan() {
               <span className="text-[#17aabb]">LAMPIRAN</span>
               <br />
               {/* <button className="px-2 py-1 bg-[#28A745] text-sm md:text-md text-white rounded">LIHAT LAMPIRAN KENDARAAN</button> */}
-              <DetailLampiran  />
+              <DetailLampiran />
             </td>
           </tr>
         </tbody>

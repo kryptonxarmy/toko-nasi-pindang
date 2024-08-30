@@ -18,8 +18,8 @@ export function DetailLampiran() {
         </DialogHeader>
         <div className="h-[25rem]">
           <div className="w-full h-full border-2 border-black">
-            <div className="relative h-[15rem] w-fit">
-              <img src={"/stnk_palsu.png"} alt="stnk" className="h-full w-full object-cover" />
+            <div className="h-[15rem] w-fit">
+              <img src={"/stnk_palsu.jpeg"} alt="stnk" className="h-[25rem] object-cover" />
             </div>
           </div>
         </div>
