@@ -1,7 +1,6 @@
 import React from "react";
-import { DetailLampiran } from "./DetailLampiranG";
 
-export default function TableDataKendaraan() {
+export default function TableDimensiKendaraan() {
   return (
     <div className="overflow-x-auto">
       <table className="min-w-full border border-gray-200">
@@ -9,42 +8,42 @@ export default function TableDataKendaraan() {
           {[
             {
               left: {
-                title: "NO. SRUT",
-                desc: "479992/IX/SRUT-153/DJPD-SPD/7/2024",
+                title: "PANJANG TOTAL",
+                desc: "6290",
               },
               right: {
-                title: "NAMA KAROSERI",
-                desc: "PT. ADHIKARISMA PRATAMA",
+                title: "LEBAR TOTAL",
+                desc: "1800",
               },
             },
             {
               left: {
-                title: "NO. SK RANCANG BANGUN",
-                desc: "SK.1090/AJ.402/DRJD/2013",
+                title: "TINGGI TOTAL",
+                desc: "2450",
               },
               right: {
-                title: "TANGGAL SK RANCANG BANGUN",
-                desc: "13 APRIL 2013",
+                title: "JARAK SUMBU 1 - 2",
+                desc: "3360",
               },
             },
             {
               left: {
-                title: "NOMOR RANGKA",
-                desc: "MCNH55SEYDJ049626",
+                title: "REAR OVERHANG (ROH)",
+                desc: "1830",
               },
               right: {
-                title: "NOMOR MESIN",
-                desc: "M049626",
+                title: "JARAK SUMBU 2 - 3",
+                desc: "0",
               },
             },
             {
               left: {
-                title: "MEREK",
-                desc: "ISUZU/ NKR 55 E2-1 LWB",
+                title: "FRONT OVERHANG (FOH)",
+                desc: "1100",
               },
               right: {
-                title: "JENIS KENDARAAN",
-                desc: "MICROBUS",
+                title: "JARAK SUMBU 3 - 4",
+                desc: "0",
               },
             },
           ].map((row, index) => (
@@ -61,19 +60,6 @@ export default function TableDataKendaraan() {
               </td>
             </tr>
           ))}
-          <tr className="bg-gray-100">
-            <td className="p-4 border border-gray-200">
-              <span className="text-[#17aabb]">WARNA</span>
-              <br />
-              <span className="text-[#28A745]">HITAM ORANGE</span>
-            </td>
-            <td className="p-4 border border-gray-200 ">
-              <span className="text-[#17aabb]">LAMPIRAN</span>
-              <br />
-              {/* <button className="px-2 py-1 bg-[#28A745] text-sm md:text-md text-white rounded">LIHAT LAMPIRAN KENDARAAN</button> */}
-              <DetailLampiran />
-            </td>
-          </tr>
         </tbody>
       </table>
     </div>

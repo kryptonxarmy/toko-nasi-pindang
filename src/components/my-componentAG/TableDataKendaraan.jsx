@@ -1,5 +1,5 @@
 import React from "react";
-import { DetailLampiran } from "./DetailLampiranG";
+import  DetailLampiranAG  from "./DetailLampiranAG";
 
 export default function TableDataKendaraan() {
   return (
@@ -10,7 +10,7 @@ export default function TableDataKendaraan() {
             {
               left: {
                 title: "NO. SRUT",
-                desc: "479992/IX/SRUT-153/DJPD-SPD/7/2024",
+                desc: "479988/IX/SRUT-153/DJPD-SPD/7/2024",
               },
               right: {
                 title: "NAMA KAROSERI",
@@ -20,27 +20,27 @@ export default function TableDataKendaraan() {
             {
               left: {
                 title: "NO. SK RANCANG BANGUN",
-                desc: "SK.1090/AJ.402/DRJD/2013",
+                desc: "SK.221/AJ.402/DRJD/2018",
               },
               right: {
                 title: "TANGGAL SK RANCANG BANGUN",
-                desc: "13 APRIL 2013",
+                desc: "9 SEPTEMBER 2018",
               },
             },
             {
               left: {
                 title: "NOMOR RANGKA",
-                desc: "MCNH55SEYDJ049626",
+                desc: "MHCNLR55HJJ081119",
               },
               right: {
                 title: "NOMOR MESIN",
-                desc: "M049626",
+                desc: "M081119",
               },
             },
             {
               left: {
                 title: "MEREK",
-                desc: "ISUZU/ NKR 55 E2-1 LWB",
+                desc: "ISUZU/ NLR 55 T LX",
               },
               right: {
                 title: "JENIS KENDARAAN",
@@ -65,13 +65,13 @@ export default function TableDataKendaraan() {
             <td className="p-4 border border-gray-200">
               <span className="text-[#17aabb]">WARNA</span>
               <br />
-              <span className="text-[#28A745]">HITAM ORANGE</span>
+              <span className="text-[#28A745]">PINK MAGENTA</span>
             </td>
             <td className="p-4 border border-gray-200 ">
               <span className="text-[#17aabb]">LAMPIRAN</span>
               <br />
               {/* <button className="px-2 py-1 bg-[#28A745] text-sm md:text-md text-white rounded">LIHAT LAMPIRAN KENDARAAN</button> */}
-              <DetailLampiran />
+              <DetailLampiranAG />
             </td>
           </tr>
         </tbody>

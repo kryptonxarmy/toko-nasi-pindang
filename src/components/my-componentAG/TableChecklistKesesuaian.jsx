@@ -1,7 +1,6 @@
 import React from "react";
-import { DetailLampiran } from "./DetailLampiranG";
 
-export default function TableDataKendaraan() {
+export default function TableChecklistKesesuaian() {
   return (
     <div className="overflow-x-auto">
       <table className="min-w-full border border-gray-200">
@@ -9,42 +8,52 @@ export default function TableDataKendaraan() {
           {[
             {
               left: {
-                title: "NO. SRUT",
-                desc: "479992/IX/SRUT-153/DJPD-SPD/7/2024",
+                title: "A. KESESUAIAN LANDASAN",
+                desc: "SESUAI",
               },
               right: {
-                title: "NAMA KAROSERI",
-                desc: "PT. ADHIKARISMA PRATAMA",
+                title: "G. KESESUAIAN DIMENSI BAK MUATAN",
+                desc: "SESUAI",
               },
             },
             {
               left: {
-                title: "NO. SK RANCANG BANGUN",
-                desc: "SK.1090/AJ.402/DRJD/2013",
+                title: "B. KESESUAIAN BENTUK FISIK KENDARAAN",
+                desc: "SESUAI",
               },
               right: {
-                title: "TANGGAL SK RANCANG BANGUN",
-                desc: "13 APRIL 2013",
+                title: "H. KESESUAIAN VOLUME BAK MUATAN",
+                desc: "SESUAI",
               },
             },
             {
               left: {
-                title: "NOMOR RANGKA",
-                desc: "MCNH55SEYDJ049626",
+                title: "C. KESESUAIAN DIMENSI KENDARAAN",
+                desc: "SESUAI",
               },
               right: {
-                title: "NOMOR MESIN",
-                desc: "M049626",
+                title: "I. KESESUAIAN DIMENSI DAN JUMLAH TEMPAT DUDUK",
+                desc: "SESUAI",
               },
             },
             {
               left: {
-                title: "MEREK",
-                desc: "ISUZU/ NKR 55 E2-1 LWB",
+                title: "D. KESESUAIAN MATERIAL",
+                desc: "SESUAI",
               },
               right: {
-                title: "JENIS KENDARAAN",
-                desc: "MICROBUS",
+                title: "J. KESESUAIAN JARAK TEMPAT DUDUK",
+                desc: "SESUAI",
+              },
+            },
+            {
+              left: {
+                title: "E. KESESUAIAN POSISI LAMPU - LAMPU",
+                desc: "SESUAI",
+              },
+              right: {
+                title: "K. KESESUAIAN FASILITAS TEMPAT KELUAR DARURAT",
+                desc: "SESUAI",
               },
             },
           ].map((row, index) => (
@@ -61,17 +70,11 @@ export default function TableDataKendaraan() {
               </td>
             </tr>
           ))}
-          <tr className="bg-gray-100">
-            <td className="p-4 border border-gray-200">
-              <span className="text-[#17aabb]">WARNA</span>
+          <tr className={"bg-white"}>
+            <td colSpan={1} className="w-1/2 p-4 text-sm md:text-md border border-gray-200">
+              <span className="text-[#17aabb] text-sm md:text-md">F. KESESUAIAN UKURAN BAN</span>
               <br />
-              <span className="text-[#28A745]">HITAM ORANGE</span>
-            </td>
-            <td className="p-4 border border-gray-200 ">
-              <span className="text-[#17aabb]">LAMPIRAN</span>
-              <br />
-              {/* <button className="px-2 py-1 bg-[#28A745] text-sm md:text-md text-white rounded">LIHAT LAMPIRAN KENDARAAN</button> */}
-              <DetailLampiran />
+              <span className="text-[#28A745] text-sm md:text-md">SESUAI</span>
             </td>
           </tr>
         </tbody>

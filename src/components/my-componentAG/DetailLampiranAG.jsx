@@ -4,7 +4,7 @@ import * as DialogPrimitive from "@radix-ui/react-dialog";
 import Image from "next/image";
 // import { Label } from "@/components/ui/label"
 
-export function DetailLampiran() {
+export default function DetailLampiran() {
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -19,7 +19,7 @@ export function DetailLampiran() {
         <div className="h-[25rem]">
           <div className="w-full h-full border-2 overflow-scroll border-black">
             <div className="h-[15rem]  w-fit">
-              <img src={"/stnk.jpeg"} alt="stnk" className="h-[20rem] object-cover" />
+              <img src={"/stnk_AG.jpeg"} alt="stnk" className="h-[20rem] object-cover" />
             </div>
           </div>
         </div>
