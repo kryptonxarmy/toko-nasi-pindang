@@ -19,7 +19,7 @@ export function DetailLampiran() {
         <div className="h-[25rem]">
           <div className="w-full h-full border-2 overflow-scroll border-black">
             <div className="h-[15rem]  w-fit">
-              <img src={"/stnk_palsu.jpeg"} alt="stnk" className="h-[20rem] object-cover" />
+              <img src={"/stnk.jpeg"} alt="stnk" className="h-[20rem] object-cover" />
             </div>
           </div>
         </div>
